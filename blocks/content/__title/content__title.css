@@ -1,0 +1,26 @@
+.content__title {
+  margin: 0 auto;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 100%;
+  text-align: center;
+  font-size: calc(32px + (100vw - 320px) * 0.022);
+  line-height: calc(35px + (100vw - 320px) * 0.025);
+  font-weight: 900;
+  font-style: normal;
+}
+  
+@media (min-width: 768px) {
+  .content__title {
+    font-size: calc(42px + (100vw - 768px) * 0.117);
+    line-height: calc(46px + (100vw - 768px) * 0.125);
+  }
+}
+
+@media (min-width: 1024px) {
+  .content__title {
+    font-size: 72px;
+    line-height: 78px;
+  }
+}
