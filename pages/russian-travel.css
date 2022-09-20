@@ -8,6 +8,8 @@
     @import url(../blocks/header/__lang-link/header__lang-link.css);
       @import url(../blocks/header/__lang-link/_chosen/header__lang-link_chosen.css);
 @import url(../blocks/content/content.css);
+    @import url(../blocks/content/__title/content__title.css);
+    @import url(../blocks/content/__subtitle/content__subtitle.css);
 @import url(../blocks/lead/lead.css);
     @import url(../blocks/lead/__title/lead__title.css);
     @import url(../blocks/lead/__subtitle/lead__subtitle.css);
@@ -29,13 +31,12 @@
     @import url(../blocks/place/__image/place__image.css);
     @import url(../blocks/place/__paragrpahs/place__paragraphs.css);
     @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/photographers/photographers.css);
-    @import url(../blocks/photographers/__title/photographers__title.css);
-    @import url(../blocks/photographers/__subtitle/photographers__subtitle.css);
-@import url(../blocks/photographer-card/photographer-card.css);
-    @import url(../blocks/photographer-card/__photo/photographer-card__photo.css);
-    @import url(../blocks/photographer-card/__text/photographer-card__text.css);
-    @import url(../blocks/photographer-card/__author/photographer-card__author.css);
+@import url(../blocks/comments/comments.css);
+    @import url(../blocks/comments/__container/comments__container.css);
+@import url(../blocks/comment/comment.css);
+    @import url(../blocks/comment/__image/comment__image.css);
+    @import url(../blocks/comment/__quote/comment__quote.css);
+    @import url(../blocks/comment/__author/comment__author.css);
 @import url(../blocks/cover/cover.css);
     @import url(../blocks/cover/__link-block/cover__link-block.css);
     @import url(../blocks/cover/__overlay/cover__overlay.css);

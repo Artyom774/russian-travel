@@ -1,0 +1,32 @@
+.content__subtitle {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: calc(16px + (100vw - 320px) * 0.018);
+  margin-right: auto;
+  margin-bottom: calc(40px + (100vw - 320px) * 0.071);
+  margin-left: auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+@media (min-width: 768px) {
+  .content__subtitle {
+    font-size: calc(16px + (100vw - 768px) * 0.031);
+    line-height: calc(23px + (100vw - 768px) * 0.047);
+    margin-top: calc(24px + (100vw - 320px) * 0.094);
+    margin-bottom: 72px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content__subtitle {
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 48px;
+  }
+}
