@@ -1,0 +1,25 @@
+.footer__link {
+    margin: 0 0 32px;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    opacity: .8;
+    transition-duration: .8s;
+}
+
+@media (min-width: 768px) {
+    .footer__link {
+        margin: 0 18px 0 0;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}

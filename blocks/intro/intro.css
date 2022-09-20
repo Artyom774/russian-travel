@@ -1,0 +1,28 @@
+.intro {
+  width: 76.9%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 92px;
+}
+
+@media (max-width: 1280px) {
+  .intro {
+    width: calc(928px + (100vw - 1024px) * 0.219);
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    width: calc(720px + (100vw - 768px) * 0.625);
+    margin-bottom: calc(88px + (100vw - 768px) * 0.016);
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    width: 93.75%;
+    margin-left: calc(16px + (100vw - 320px) * 0.018);
+    margin-right: calc(16px + (100vw - 320px) * 0.018);
+    margin-bottom: calc(64px + (100vw - 320px) * 0.054);
+  }
+}

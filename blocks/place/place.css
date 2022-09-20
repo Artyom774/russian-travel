@@ -1,0 +1,25 @@
+.place {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: calc(50px + (100vw - 320px) * 0.049);
+}
+
+@media (min-width: 768px) {
+    .place {
+        margin-top: calc(72px + (100vw - 768px) * 0.031);
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1024px) {
+    .place {
+        margin-top: 80px;
+    }
+}
+
+.place:first-child {
+    margin-top: 0;
+}
