@@ -29,6 +29,13 @@
     @import url(../blocks/place/__image/place__image.css);
     @import url(../blocks/place/__paragrpahs/place__paragraphs.css);
     @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/photographers/photographers.css);
+    @import url(../blocks/photographers/__title/photographers__title.css);
+    @import url(../blocks/photographers/__subtitle/photographers__subtitle.css);
+@import url(../blocks/photographer-card/photographer-card.css);
+    @import url(../blocks/photographer-card/__photo/photographer-card__photo.css);
+    @import url(../blocks/photographer-card/__text/photographer-card__text.css);
+    @import url(../blocks/photographer-card/__author/photographer-card__author.css);
 @import url(../blocks/cover/cover.css);
     @import url(../blocks/cover/__link-block/cover__link-block.css);
     @import url(../blocks/cover/__overlay/cover__overlay.css);
